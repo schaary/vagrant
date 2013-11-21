@@ -37,7 +37,10 @@ To learn how to build a fully functional rails development environment, view the
 If you want the bleeding edge version of Vagrant, we try to keep master pretty stable
 and you're welcome to give it a shot. The following is an example showing how to do this:
 
-    rake install
+    git clone git@github.com:mitchellh/vagrant.git   # download the software
+    cd vagrant
+    bundle install                                   # load dependencies
+    rake install                                     # install vagrant gem
 
 ## Contributing to Vagrant
 
